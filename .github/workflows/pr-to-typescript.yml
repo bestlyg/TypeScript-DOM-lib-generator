@@ -44,4 +44,4 @@ jobs:
           labels: |
             Domain: lib.d.ts
             Housekeeping
-          token: ${{ secrets.TS_GITHUB_BOT_AUTH }}
+          token: ${{ secrets.GITHUB_TOKEN }}
